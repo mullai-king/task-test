@@ -1,0 +1,15 @@
+Q1)Difference between HTTP 1.1 vs HTTP 2:
+  i.HTTP 1.1
+  ii.HTTP 2
+ 1)
+  i.HTTP 1.1 works plain text to transfer client data.
+  ii.HTTP 2 works binary foramt use SPDY protocol to transfer client data.
+ 2)
+  i.HTTP 1.1 compress itself.
+  ii.HTTP 2 use to compress HPACK protocol.
+ 3)
+  i.HTTP 1.1 TCP make connection.and  server and client connection required .that connection will be alive until data will done.
+  ii.HTTP 2 It use TCP one connection. 
+ 4)
+  i.HTTP 1.1 Client HTTP request wait for first HTTP response from server then client send inline HTTP request.
+  ii.HTTP 2  Client continuesly send HTTP requests.once from server send HTTP response.
