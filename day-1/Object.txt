@@ -1,0 +1,48 @@
+Q2.Object and Internal representation in javascript
+Object:
+     -Object is most importatnt datatype in javascript. it's not like primitive data type.
+     -Object is non-primitive datatype.
+	   -Object is have ralation keyvalue of property
+     -object can create ways of Object() method,inialize,literal Syntax.
+     --------------------------------------------------------------------------------------
+     Creating Objact by method
+     Syntax:
+           datatype Objectname = new Object(); //Creating Object using Object() method
+           objectname.ObjectPropertykey=ObjectPropertykeyValue; // Initializing object property key ObjectPropertykeyValue
+           objectname.ObjectPropertykey // calling object 
+           objectname.[ObjectPropertykey] // calling object 
+           objectname.["ObjectPropertykey"] // calling object
+     --------------------------------------------------------------------------------------
+     -laptop is single object but it holding model,prize,RAM specification,processor specification.
+     -Now we create object of laptop properties;
+     -like (I.e):
+     code:
+         /* var laptop = new object(){
+             laptop.brand = "lenovo",
+             laptop.model = "E41-25",
+             laptop.RAM   = "4GB",
+             laptop.processor = "AMD"
+             laptop.allSpec = function() {
+              return this.brand +" "+this.model+" "+this.RAM +" "+this.processor
+             }
+         };
+         console.log(laptop.allSpec) //using fuction print all ObjectPropertykeyValue in single lineusing this keyword
+         console.log(laptop.brand) //single output */
+
+     OUTPUT:
+         lenovo E41-24 4GB AMD
+         lenovo
+     ---------------------------------------------------------------------------------------
+     Javascript Object methods
+        +javascript object property member of have key and value of object property
+          -Instance properties
+          -static method
+          -Instance method
+       +Instance properties:
+            -Instance property is a property it have new copy of every new instance.
+            -constructor method
+       +static method:
+            -method call itself it's static method
+
+       +instance method 
+            -Method called instance  of data object it call innstance method
