@@ -1,0 +1,16 @@
+var keys = object.keys({
+  "name": "Mullai",
+  "age" : 24,
+  "address":{
+  "line1" : "",
+  "line2" : "",
+  "city" : "",
+  "state" : "",
+  "country" : "",
+},
+ "profileDetails":{
+    "userId": "",
+    "userPassword" :"",
+},
+ "TravelDestinations":
+});
