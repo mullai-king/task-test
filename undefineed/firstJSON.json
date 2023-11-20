@@ -12,5 +12,5 @@ var keys = object.keys({
     "userId": "",
     "userPassword" :"",
 },
- "TravelDestinations":
+ "TravelDestinations": ""
 });
