@@ -1,0 +1,2 @@
+Q.Document vs Window
+  The window object represents an open window in a browser.
