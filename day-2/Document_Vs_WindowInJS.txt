@@ -14,5 +14,13 @@ Q.Document vs Window
    --window.close()
    --window.alert()
    --window.resizeTo()
-
+  Document:
+   -Document is property of HtML.
+   -Document object and method it member of window.
+   -Document object value change HtML element.
+   -Documect method will perform  HTML  element.
+   example:
+      --documennt.getElementByID().innerHTML 
+      //getElementByID is method of Documect
+      //innerHTML is property of Documect
   The window object represents an window in a browser.
