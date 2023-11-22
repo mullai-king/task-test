@@ -1,2 +1,18 @@
 Q.Document vs Window
-  The window object represents an open window in a browser.
+ Window:
+  -Wndow object work almost every browser 
+  -Window represent browser window.
+  -Global js variable and method are property member of browser
+  -Global JS object is windows property object.
+  -Global JS function is method of window.
+  -window frame object invoke first html window then each object create each  window.
+  - example window.innerWidth and window.innerWidth this determine window size
+     window.innerHeight - window hieght in pixel
+     window.innerWidth  - window width in pixel
+
+  Window method are:
+   --window.close()
+   --window.alert()
+   --window.resizeTo()
+
+  The window object represents an window in a browser.
