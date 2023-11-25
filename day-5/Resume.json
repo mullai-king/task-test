@@ -1,0 +1,58 @@
+{
+  "name":"Mullaiventhan",
+  "lookingFor":"MERN FULL STACK DEVELOPER",
+  "contact":{
+    "email":"mullaiventhanm24081@gmail.com",
+    "github":"https://github.com/mullai-king/",
+    "linkedIn":"https://www.linkedin.com/in/mullaiventhan-m-387502138/"
+  },
+  "objective":"A highly enthusiastic candidate with strong technical, problem solving and managing skills, who would like to create impact to the organisation/work and my career. I’m part of organisation and always try to explore new things in life",
+  "skils" :["C","JAVA","XML","REST","JSON","VERSION CONTROL(GIT)","SOFTWARE AND HARDWARE TROUBLESHOOTING","OOPs","JAVASCRIPT","HTML","CSS"],
+  "languages":["TAMIL","ENGLISH","KANNADA"],
+  "area of intrest":["FULL STACK WEB DEVELOPMENT","CYBER SECURITY","ANDROID DEVEPMENT","LINUX"],
+  "project":"Child Monitoring System:Child-parents monitoring system. which using Java, XML and SQlite. Child log store in SQlite and send toXAMPP server. Parents can see child logs",
+  "education":{
+    "degree":{
+      "course":"B.Tech(Information Technology)",
+      "college":"University College of Engineering,Anna university(BIT),trichy",
+      "cgpa":"6.7",
+      "passedOut":"2020"
+    },
+    "hsc":{
+      "steam":"BIO-MATh",
+      "school":"Rajavignesh hr sec school,Melamathur",
+      "percentage":"88.88%",
+      "passedout":"2016"
+    }
+  },
+  "workExperience":{
+    "workExperience1":{
+      "company":"TECHOBYTES TECHNOLOGIES",
+      "jobRole":"Cyber Security with Ethical Hacking Intern",
+      "location":"Chennai",
+      "joinDate":"05/15/2019",
+      "lastDate":"01/06/2019",
+      "jobDescription":"Cyber Security Ethics, awareness and safty precautions. Penetration testing trainning on Web application, Network. Used various penetration testing application like Wireshark, NMAP, Metasploit, Burp suite, SQLmap,Aircrack."
+    },
+        "workExperience2":{
+      "company":"THE OXFORD COLLEGE OF SCIENCE",
+      "jobRole":"Computer Lab Programmer",
+      "location":"Bangalore",
+      "joinDate":"15/11/2021",
+      "lastDate":"29/08/2023",
+      "jobDescription":"Configuring and maintaining Hardware and Software in computer Laboratory. Teach programming and help students in debugging. Troubleshooting & maintenance Local Area Network. Devices handled: Server, Switch,Routers."
+    }
+ },
+  "volunteerExperience":{
+    "nss":{
+      "startedYear":"2016",
+      "endedYear":"2018",
+      "placce":"Trichy"
+    },
+    "null":{
+      "startedYear":"2019",
+      "endedYear":"Present",
+      "placce":"chennai"
+    }
+  }
+}
