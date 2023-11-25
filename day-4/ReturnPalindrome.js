@@ -1,6 +1,6 @@
 // Return all the palindromes in an array
 
-let inputArray = ["amma","appa","me","sister"]
+var inputArray = ["amma","appa","me","sister"]
 var outputArray =[];
 var palindromefunction =function(input) {
         for (var i in input){
@@ -16,7 +16,7 @@ var palindromResult = palindromefunction(inputArray)
  
  // Return all the palindromes in an array IIFE
  
-let inputArray = ["amma","appa","me","sister"]
+var inputArray = ["amma","appa","me","sister"]
 var outputArray =[];
 var palindromefunction =(function(input) {
         for (var i in input){
