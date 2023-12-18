@@ -1,0 +1,52 @@
+body,div,section,button,input,button{
+  font-size: 20px;
+}
+
+
+.input-container{
+  margin-bottom: 20px;
+  border: 0px;
+  
+}
+
+.button{
+  border: 0px;
+  outline: none;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.button:hover{
+  background-color: rgb(38, 161, 1);
+}
+
+.form-container{
+  width: 300px;
+  margin: 20px;
+  
+}
+
+input{
+  width: 100%;
+  height: 40px;
+  border: 0px solid blue;
+  background-color: rgb(235, 235, 235);
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-inline-start: 10px;
+}
+
+.page-container{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+}
+
+input:hover{
+  border: 1px solid rgb(38, 161, 1);
+}
