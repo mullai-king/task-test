@@ -1,7 +1,13 @@
 # DAY2 Task
-<img src="https://miro.medium.com/v2/resize:fit:809/1*gRMkpPF9o_hAPGS4iJKCDQ.png"/>
 
 ## Document vs Window
+
+<img src="https://miro.medium.com/v2/resize:fit:809/1*gRMkpPF9o_hAPGS4iJKCDQ.png"/>
+
+- [Window](#Window-)
+
+- [document](#Document-)
+
 ### Window:
 - Wndow object work is cover almost every  browser 
 - Window represent browser particulor window or tab.
