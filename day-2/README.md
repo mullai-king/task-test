@@ -4,9 +4,9 @@
 
 <img src="https://miro.medium.com/v2/resize:fit:809/1*gRMkpPF9o_hAPGS4iJKCDQ.png"/>
 
-- [Window](#Window-)
+- [Window](#Window)
 
-- [Document](#Document-)
+- [Document](#Document)
 
 ### Window
 - Wndow object work is cover almost every  browser 
