@@ -6,9 +6,9 @@
 
 - [Window](#Window-)
 
-- [document](#Document-)
+- [Document](#Document-)
 
-### Window:
+### Window
 - Wndow object work is cover almost every  browser 
 - Window represent browser particulor window or tab.
 - Global javascript variable and method are property member of browser
@@ -41,7 +41,7 @@ window.close()
 window.alert()
 ```
 
- ## Document:
+ ## Document
  
 - Document is property of HTML.
 - Document object and method it member of window.
