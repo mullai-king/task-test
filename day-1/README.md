@@ -3,6 +3,7 @@
  - [Object and Internal representation in javascript](#Object-and-Internal-representation-in-javascript)
 # Difference between HTTP 1.1 and HTTP 2
 <img src="https://media.licdn.com/dms/image/C5612AQEj04Vipr3Plg/article-cover_image-shrink_720_1280/0/1639909982356?e=2147483647&v=beta&t=Re-KqiK8icaKhsEuNosquEtC24M5ATMdplgQAFY3WIY" height ="500px"/>
+
 ### 1) Plain Text vs Binary Format:
 
     I. HTTP 1.1: Works with `plain text` to transfer client data.
