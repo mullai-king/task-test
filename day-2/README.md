@@ -1,4 +1,5 @@
 # DAY2 Task
+<img src="https://miro.medium.com/v2/resize:fit:809/1*gRMkpPF9o_hAPGS4iJKCDQ.png"/>
 
 ## Document vs Window
 ### Window:
