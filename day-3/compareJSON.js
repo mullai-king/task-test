@@ -1,5 +1,5 @@
 let obj1 = {name: "person1",age:5}
-let obj2 = {age:2,name: "person2",as:2}
+let obj2 = {age:5 ,name: "person1",}
 let count = 0;
 let mismatch =0;
 let isequal = false;
