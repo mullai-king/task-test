@@ -1,7 +1,7 @@
-var inputArray =["some","one","two"];
-var outputArray =[];
-var stringArray =(inputArray)=>{
-    for(var x in inputArray){
+let inputArray =["some","one","two"];
+let outputArray =[];
+let stringArray =(inputArray)=>{
+    for(let x in inputArray){
       outputArray.push(inputArray[x][0].toUpperCase()+inputArray[x].slice(1))
     }
 }

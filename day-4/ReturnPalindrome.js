@@ -1,9 +1,9 @@
 // Return all the palindromes in an array
 
-var inputArray = ["amma","appa","me","sister"]
-var outputArray =[];
-var palindromefunction =function(input) {
-        for (var i in input){
+let inputArray = ["amma","appa","me","sister"]
+let outputArray =[];
+let palindromefunction =function(input) {
+        for (let i in input){
           reverseInput = input[i].split('').reverse().join("")
           if(input[i] ===reverseInput){
                 outputArray.push(input[i])
@@ -11,15 +11,15 @@ var palindromefunction =function(input) {
         }
         return outputArray
     }
-var palindromResult = palindromefunction(inputArray)
+let palindromResult = palindromefunction(inputArray)
  console.log(palindromResult)
  
  // Return all the palindromes in an array IIFE
  
-var inputArray = ["amma","appa","me","sister"]
-var outputArray =[];
-var palindromefunction =(function(input) {
-        for (var i in input){
+let inputArray = ["amma","appa","me","sister"]
+let outputArray =[];
+let palindromefunction =(function(input) {
+        for (let i in input){
           reverseInput = input[i].split('').reverse().join("")
           if(input[i] ===reverseInput){
                 outputArray.push(input[i])

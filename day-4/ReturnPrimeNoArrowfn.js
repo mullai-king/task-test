@@ -1,9 +1,9 @@
-var input =100;
-var outputArray =[];
-var primefunction =(input) =>{
-    for (var i =0;i<=input;i++){
+let input =100;
+let outputArray =[];
+let primefunction =(input) =>{
+    for (let i =0;i<=input;i++){
         if(i>1){
-            var count =0;
+            let count =0;
             for(j=2;j<=i;j++){
                 if(i%j ==0){
                     count++
@@ -16,5 +16,5 @@ var primefunction =(input) =>{
   }
   return outputArray
 }
-var primeRetult = primefunction(input)
+let primeRetult = primefunction(input)
  console.log(primeRetult)

@@ -1,10 +1,10 @@
 //Return all the prime numbers in an array annonymous function
-var input =100;
-var outputArray =[];
-var primefunction =function(input) {
-    for (var i =0;i<=input;i++){
+let input =100;
+let outputArray =[];
+let primefunction =function(input) {
+    for (let i =0;i<=input;i++){
         if(i>1){
-            var count =0;
+            let count =0;
             for(j=2;j<=i;j++){
                 if(i%j ==0){
                     count++
@@ -17,16 +17,16 @@ var primefunction =function(input) {
   }
   return outputArray
 }
-var primeRetult = primefunction(input)
+let primeRetult = primefunction(input)
  console.log(primeRetult)
  
 //Return all the prime numbers in an array IIFE function
-var input =100;
-var outputArray =[];
-var result=(function(input) {
-    for (var i =0;i<=input;i++){
+let input =100;
+let outputArray =[];
+let result=(function(input) {
+    for (let i =0;i<=input;i++){
         if(i>1){
-            var count =0;
+            let count =0;
             for(j=2;j<=i;j++){
                 if(i%j ==0){
                     count++

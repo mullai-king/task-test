@@ -1,8 +1,8 @@
 // print odd no in Array annonymous function
-var inputArray =[1,2,3,4,5,6,7,8,9,10,1,2,3,4,5];
-var outputArray =[];
-var oddArray = function(element){
-    for(var x in element){
+let inputArray =[1,2,3,4,5,6,7,8,9,10,1,2,3,4,5];
+let outputArray =[];
+let oddArray = function(element){
+    for(let x in element){
        if(element[x]%2 !=0){
            outputArray.push(element[x])
        
@@ -15,10 +15,10 @@ console.log(outputArray)
 
 
 //print odd no in Array IIFE
-var inputArray =[1,2,3,4,5,6,7,8,9,10,1,2,3,4,5];
-var outputArray =[];
+let inputArray =[1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,11];
+let outputArray =[];
 ( function(){
-    for(var x in inputArray){
+    for(let x in inputArray){
        if(inputArray[x]%2 !=0){
            outputArray.push(inputArray[x])
        

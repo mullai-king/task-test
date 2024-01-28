@@ -1,7 +1,7 @@
-var inputArray = ["amma","appa","me","sister"]
-var outputArray =[];
-var palindromefunction =(input) =>{
-        for (var i in input){
+let inputArray = ["amma","appa","me","sister"]
+let outputArray =[];
+let palindromefunction =(input) =>{
+        for (let i in input){
           reverseInput = input[i].split('').reverse().join("")
           if(input[i] ===reverseInput){
                 outputArray.push(input[i])
@@ -9,5 +9,5 @@ var palindromefunction =(input) =>{
         }
         return outputArray
     }
-var palindromResult = palindromefunction(inputArray)
+let palindromResult = palindromefunction(inputArray)
  console.log(palindromResult)
