@@ -11,5 +11,5 @@ class UberPrice {
     return Math.max((distanceCost + timeCost ), this.baseFare)
   }
 }
-var totalcoast =new UberPrice(50,25,10)
+let totalcoast =new UberPrice(50,25,10)
 console.log(totalcoast.calculatePrice(5,1))

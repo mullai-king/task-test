@@ -5,19 +5,25 @@ class Movie{
       this.rating = rating;
   }
    static getPG(movie){
-   return movie.filter((movie)=>movie.rating ==="PG")   
+      let pgMovies =[];
+      movie.filter((movie)=>{
+        if(movie.rating ==="PG"){
+          pgMovies.push(movie.tittle);
+        }
+      })
+      return pgMovies;
   }
 }
 
-var sampleMovie = new Movie("Casino Royale","Eon Productions","PG13");
+let sampleMovie = new Movie("Casino Royale","Eon Productions","PG13");
 
-var movieList = [
+let movieList = [
   new Movie("Leo","Seven Screen Studio","PG13"),
   new Movie("vikram","Seven Screen Studio","PG"),
   new Movie("Kaithi","Seven Screen Studio","PG"),
   new Movie("Resticted","Seven Screen Studio","R"),
   new Movie("IronMan","Seven Screen Studio")]
   // for(var x in movieList){
-  var pgResult = Movie.getPG(movieList)
-console.log(pgResult)
+  let pgResult = Movie.getPG(movieList)
+  console.log(pgResult)
 // }

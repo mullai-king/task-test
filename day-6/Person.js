@@ -10,7 +10,7 @@ class person{
       return "Name:"+this.firstName+this.lastName+" age:"+this.age+" gender:"+this.gender
   }
   }
-  var mullai =new person("mullai","venthan","male",24)
-  var vasanth = new person("vasanth","ravi","male",25)
+  let mullai =new person("mullai","venthan","male",24)
+  let vasanth = new person("vasanth","ravi","male",25)
   console.log(mullai.personDetails())
   console.log(vasanth.personDetails())
