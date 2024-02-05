@@ -1,5 +1,4 @@
-# Popular array method used MRF(maf, reduce ,filter)
-# used for each
+# Popular array method used MRF(maf, reduce ,filter) and forEach
 ## filterAsianRegion.js used methods are filter and map
 ## filterPopulation.js used filter and method
 ## ForEachAllCoutry.js used forEach
